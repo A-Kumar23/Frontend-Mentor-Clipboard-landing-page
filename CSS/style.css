@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+:root{
+   --strong_cyan: hsl(171, 66%, 44%);
+   --light_blue: hsl(233, 100%, 69%);
+   --dark_grayish_blue: hsl(210, 10%, 33%);
+   --grayish_blue: hsl(201, 11%, 66%);
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+body{
+    background: url(../images/bg-header-desktop.png) top no-repeat;
+    background-size: contain;
+    background-color: whitesmoke;
+    color: var(--dark_grayish_blue);
+}
+main{
+    background-color: white;
+}
+
+h1, h2, h4{
+    font-weight: 600;
+}
+p{
+    color: var(--grayish_blue);
+}
+
+.top p{
+    width: 600px;
+}
+button{
+    color: white;
+    font-weight: 600;
+    font-size: 2em;
+}
+.ios{
+    background-color: var(--strong_cyan);
+    color: white;
+    font-weight: 600;
+    font-size: 1em;
+}
+.mac{
+    background-color: var(--light_blue);
+    color: white;
+    font-weight: 600;
+    font-size: 1em;
+}
+/* .Dbox{
+    position: absolute;
+} */
+.Dimg{
+    position: relative;
+    left: -4em;
+} 
+.head_text{
+    padding-top: 8em;
+}
+.head_text p{
+    width: 600px;
+}
+footer{
+    background-color: whitesmoke;
+    color: var(--dark_grayish_blue);
+}
+.attribution {
+    font-size: 15px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 768px) {
+    .top p{
+        width: auto;
+    }
+    .Dimg{
+        position: static;
+        /* left: -3em; */
+    }
+    .head_text p{
+        width: auto;
+    }
+}
