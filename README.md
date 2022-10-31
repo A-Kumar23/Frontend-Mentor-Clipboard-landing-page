@@ -1,1 +1,1 @@
-# Frontend-Mentor-Interactive-rating
+# Frontend-Mentor-Clipboard-landing-page
